@@ -10,7 +10,7 @@ If you want to try out my chatbot, you can go [here](https://huggingface.co/soph
 
 ## Project Files
 
-* `model_train_upload_workflow.ipyb`: Notebook to be run in Google Colab to train and upload the model to Hugging Face's Model Hub
+* `model_train_upload_workflow.ipynb`: Notebook to be run in Google Colab to train and upload the model to Hugging Face's Model Hub
 * `main.py`: Script to be imported into a Repl.it Python Discord.py project
 * `keep_alive.py`: Script to keep the discord bot alive for half an hour after main.py is run
 

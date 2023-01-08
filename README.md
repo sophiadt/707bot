@@ -2,7 +2,7 @@
 
 An AI discord bot that can simulate a conversation with RFA's best hacker, 707 from [Mystic Messenger](https://en.wikipedia.org/wiki/Mystic_Messenger)!
 
-Credits to Lynn Zheng and her [Discord AI Chatbot tutorial](https://www.freecodecamp.org/news/discord-ai-chatbot/) for helping me build this.
+Credits to Lynn Zheng and her [Discord AI Chatbot tutorial](https://www.freecodecamp.org/news/discord-ai-chatbot/) as well as Rostyslav Neskorozhenyi and his [post about making a Rick Sanchez bot](https://towardsdatascience.com/make-your-own-rick-sanchez-bot-with-transformers-and-dialogpt-fine-tuning-f85e6d1f4e30) for helping me build this.
 
 The chatbot uses the [Microsoft DialoGPT conversational model](https://huggingface.co/microsoft/DialoGPT-medium) that has been trained with [707's messages in the Deep Story from this Kaggle dataset](https://www.kaggle.com/datasets/pineapplesoup/707-messages). The dataset has almost 4000 lines and I trained it for 12 epochs to give a perplexity of around 1.3. The perplexity represents how confused the model is so the higher the perplexity, the more confused the model is. 1.3 is a very low perplexity but the chat bot still has some out-of-character responses. With this amount of data, the model took around 1.5 hours to train.
 
